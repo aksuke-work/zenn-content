@@ -3,7 +3,7 @@ title: "JavaScriptで日本の税金を正確に計算する — 累進課税・
 emoji: "🧮"
 type: "tech"
 topics: ["javascript", "tax", "webdev", "個人開発"]
-published: false
+published: true
 ---
 
 フリーランス向けの税金計算ツールサイト [AND TOOLS](https://and-tools.net/) を作っている。34個の計算ツールの裏側にある、日本の税制をJavaScriptで実装するときのポイントをまとめる。
