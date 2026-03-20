@@ -191,7 +191,7 @@ commonlyMissedExpenses.forEach((e) => {
 });
 ```
 
-[AND TOOLSの経費率判定ツール](https://and-tools.net/tools/expense-rate/) で経費率をチェックし、業種平均と比較して計上漏れを発見できる。
+[AND TOOLSの経費率判定ツール](https://and-tools.net/tools/expense-rate/) で経費率をチェックし、業種平均と比較して計上漏れを発見できる。経費を計上した後の粗利は [粗利計算ツール](https://webatives.com/tools/gross-profit-calc/) で手早く確認できる。
 
 ---
 

@@ -208,7 +208,7 @@ calcBreakEven(6000000);
 2. 登録番号（T + 13桁）が発行される
 3. 登録番号を請求書に記載する
 
-登録後の消費税申告は年1回（原則）。[AND TOOLSのインボイス計算ツール](https://and-tools.net/tools/invoice/) で登録した場合の消費税納税額を計算できる。
+登録後の消費税申告は年1回（原則）。[AND TOOLSのインボイス計算ツール](https://and-tools.net/tools/invoice/) で登録した場合の消費税納税額を計算できる。インボイス対応の請求書作成は [無料の請求書作成ツール](https://webatives.com/tools/invoice/) で行える。登録番号の記載欄も含めたフォーマットで出力できる。
 
 ---
 

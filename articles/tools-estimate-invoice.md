@@ -22,14 +22,16 @@ published: false
 
 ## 見積書・請求書作成の無料ツール
 
-### 1. AND TOOLS — 各種計算ツールで金額確認
+### 1. AND TOOLS / ToolShare Lab — 各種計算ツールで金額確認
 
-**URL**: [https://and-tools.net/](https://and-tools.net/)
+**URL**: [https://and-tools.net/](https://and-tools.net/) / [https://webatives.com/](https://webatives.com/)
 **用途**: 請求金額・税額の事前確認
 
 書類を作る前に「この案件の消費税いくら？」「振込手数料を差し引いたら実際の受取額は？」を確認するのに [AND TOOLS](https://and-tools.net/) が役立つ。インボイス計算ツールでは、税込・税抜の相互変換や、軽減税率・標準税率が混在する場合の計算もできる。
 
-書類作成ツールではなく「数字を正確に把握するツール」として位置付けるとよい。
+見積書・請求書そのものを作成したい場合は、[無料の見積書作成ツール](https://webatives.com/tools/estimate/) と [請求書作成ツール](https://webatives.com/tools/invoice/) が使える。ブラウザで完結し、登録不要でPDF出力できる。
+
+これらは「数字を正確に把握するツール」として位置付けるとよい。
 
 ### 2. freee 請求書
 
