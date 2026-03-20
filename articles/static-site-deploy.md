@@ -6,7 +6,7 @@ topics: ["rsync", "ssh", "gulp", "デプロイ"]
 published: false
 ---
 
-[ToolShare Lab](https://and-and.net/) はXserverの共用サーバーで動いている。Vercel や Netlify は使っておらず、`rsync` + SSH鍵でワンコマンドデプロイしている。「プラットフォームに依存しないデプロイ」の設計をまとめる。
+[ToolShare Lab](https://webatives.com/) はXserverの共用サーバーで動いている。Vercel や Netlify は使っておらず、`rsync` + SSH鍵でワンコマンドデプロイしている。「プラットフォームに依存しないデプロイ」の設計をまとめる。
 
 ## なぜrsyncなのか
 
@@ -19,7 +19,7 @@ published: false
 | rsync直接 | シンプル、速い、どこにでも置ける | 手動実行（自動化は別途） |
 | FTP | 直感的 | 遅い、差分転送なし |
 
-[ToolShare Lab](https://and-and.net/) でrsyncを選んだ理由:
+[ToolShare Lab](https://webatives.com/) でrsyncを選んだ理由:
 - Xserverの共用サーバーで動いている（Vercel等は使えない）
 - **差分転送**なので変更ファイルだけ転送、速い
 - `--delete` オプションでサーバーの不要ファイルを自動削除
@@ -95,7 +95,7 @@ rsync -avz \
   "$LOCAL_PATH" "$REMOTE_HOST:$REMOTE_PATH"
 
 echo -e "${GREEN}✅  Deploy completed!${NC}"
-echo -e "${GREEN}🌐  https://and-and.net/${NC}"
+echo -e "${GREEN}🌐  https://webatives.com/${NC}"
 ```
 
 ## rsyncのオプション解説
@@ -250,8 +250,8 @@ echo "デプロイ前チェック OK"
 
 ```bash
 # デプロイ後の疎通確認
-curl -I https://and-and.net/ | head -5
-curl -I https://and-and.net/tools/income-tax/ | head -5
+curl -I https://webatives.com/ | head -5
+curl -I https://webatives.com/tools/income-tax/ | head -5
 ```
 
 ```
@@ -290,4 +290,4 @@ rsync + SSH鍵によるデプロイの要点:
 4. **`--checksum`** で正確な差分判定 → 本当に変わったファイルだけ転送
 5. **dry-run** で事前確認 → 本番デプロイのミスを防ぐ
 
-[ToolShare Lab](https://and-and.net/) は150ページを毎回フルビルド + rsync転送しても30秒以内。Vercelのようなプラットフォームに依存せず、Xserverの共用サーバーで安定稼働している。シンプルで手堅いデプロイ方法として、静的サイトには十分すぎる構成だ。
+[ToolShare Lab](https://webatives.com/) は150ページを毎回フルビルド + rsync転送しても30秒以内。Vercelのようなプラットフォームに依存せず、Xserverの共用サーバーで安定稼働している。シンプルで手堅いデプロイ方法として、静的サイトには十分すぎる構成だ。

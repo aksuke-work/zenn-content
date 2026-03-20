@@ -6,7 +6,7 @@ topics: ["LLMO", "SEO", "llmstxt", "個人開発"]
 published: false
 ---
 
-2025年から「LLMにサイトの情報を正確に読み取ってもらうための最適化」、つまりLLMO（Large Language Model Optimization）が話題になってきている。その最初の一歩として `llms.txt` を [AND TOOLS](https://and-tools.net/) と [ToolShare Lab](https://and-and.net/) に実装した。やったことと、なぜ今やるべきなのかをまとめる。
+2025年から「LLMにサイトの情報を正確に読み取ってもらうための最適化」、つまりLLMO（Large Language Model Optimization）が話題になってきている。その最初の一歩として `llms.txt` を [AND TOOLS](https://and-tools.net/) と [ToolShare Lab](https://webatives.com/) に実装した。やったことと、なぜ今やるべきなのかをまとめる。
 
 ## llms.txtとは何か
 
@@ -96,7 +96,7 @@ function copyRootFiles() {
 exports.default = gulp.series(copyRootFiles);
 ```
 
-[ToolShare Lab](https://and-and.net/) はGulp 5で構築しているので、この方法で実装した。
+[ToolShare Lab](https://webatives.com/) はGulp 5で構築しているので、この方法で実装した。
 
 ### Next.jsの場合
 

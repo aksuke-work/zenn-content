@@ -6,7 +6,7 @@ topics: ["gulp", "パフォーマンス", "最適化", "静的サイト"]
 published: false
 ---
 
-[ToolShare Lab](https://and-and.net/) は PageSpeed Insights で 98/100 を維持している。Gulp のビルドパイプラインに HTML/CSS/JS のminifyとGzip圧縮を組み込んだ結果だ。静的サイトの最適化パイプラインをまとめる。
+[ToolShare Lab](https://webatives.com/) は PageSpeed Insights で 98/100 を維持している。Gulp のビルドパイプラインに HTML/CSS/JS のminifyとGzip圧縮を組み込んだ結果だ。静的サイトの最適化パイプラインをまとめる。
 
 ## 最適化の全体像
 
@@ -55,7 +55,7 @@ function buildScss() {
 }
 ```
 
-[ToolShare Lab](https://and-and.net/) での効果:
+[ToolShare Lab](https://webatives.com/) での効果:
 
 | 状態 | ファイルサイズ |
 |------|-------------|
@@ -295,7 +295,7 @@ function buildScss() {
 
 ## PageSpeed Insights の改善前後
 
-[ToolShare Lab](https://and-and.net/) での最適化前後:
+[ToolShare Lab](https://webatives.com/) での最適化前後:
 
 | 指標 | 最適化前 | 最適化後 |
 |------|---------|---------|

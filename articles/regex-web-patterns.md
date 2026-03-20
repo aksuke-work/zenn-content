@@ -343,4 +343,4 @@ function escapeRegex(str) {
 
 正規表現は覚えるより「コピペして使うもの」と割り切るほうが実用的だ。この記事のパターンをチームの共有ファイルやスニペットに登録しておくと、都度ゼロから書く手間を省ける。
 
-[ToolShare Lab](https://and-and.net/) では正規表現テストツールなど、Web制作に役立つツールを無料公開している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。
+[ToolShare Lab](https://webatives.com/) では正規表現テストツールなど、Web制作に役立つツールを無料公開している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。

@@ -6,7 +6,7 @@ topics: ["browsersync", "gulp", "フロントエンド", "開発環境"]
 published: false
 ---
 
-[ToolShare Lab](https://and-and.net/) の開発環境は Gulp + BrowserSync で構築している。EJSを編集すると即座にブラウザが更新される環境で、150個のツールページを日々開発している。BrowserSync の設定ノウハウをまとめる。
+[ToolShare Lab](https://webatives.com/) の開発環境は Gulp + BrowserSync で構築している。EJSを編集すると即座にブラウザが更新される環境で、150個のツールページを日々開発している。BrowserSync の設定ノウハウをまとめる。
 
 ## BrowserSync とは
 
@@ -113,7 +113,7 @@ browserSync.reload()
 - スクロール位置が維持される
 - アニメーションが途切れない
 
-[ToolShare Lab](https://and-and.net/) のツールページは「フォームに値を入力して計算する」UIが多い。SCSSを調整しながらフォームの見た目を確認するとき、リロードされると入力値が消えてしまう。CSSインジェクションなら入力値を保ったままスタイルの変化を確認できる。
+[ToolShare Lab](https://webatives.com/) のツールページは「フォームに値を入力して計算する」UIが多い。SCSSを調整しながらフォームの見た目を確認するとき、リロードされると入力値が消えてしまう。CSSインジェクションなら入力値を保ったままスタイルの変化を確認できる。
 
 ## 複数のURLパターンへの対応
 
@@ -160,7 +160,7 @@ function serve(done) {
 }
 ```
 
-[ToolShare Lab](https://and-and.net/) は静的サイトなので `server` モードを使っているが、WordPressサイトを並行開発するときはプロキシモードが役立つ。
+[ToolShare Lab](https://webatives.com/) は静的サイトなので `server` モードを使っているが、WordPressサイトを並行開発するときはプロキシモードが役立つ。
 
 ## ミドルウェアで404カスタマイズ
 
@@ -267,4 +267,4 @@ BrowserSync 設定のポイント:
 5. **`ghostMode`** はツールサイトでは無効にする
 6. **watch対象を `src/` 以下に絞る** → パフォーマンス改善
 
-[ToolShare Lab](https://and-and.net/) では BrowserSync のおかげで、SCSSを調整しながらフォームの動作を同時に確認できる。リロードのたびに入力値を再入力する手間がなくなり、開発効率が大幅に上がった。
+[ToolShare Lab](https://webatives.com/) では BrowserSync のおかげで、SCSSを調整しながらフォームの動作を同時に確認できる。リロードのたびに入力値を再入力する手間がなくなり、開発効率が大幅に上がった。

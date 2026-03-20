@@ -107,7 +107,7 @@ AND TOOLSで実施してスコアが改善した施策：
 - 計算処理をメインスレッドから分離（Web Workers）
 - イベントハンドラをdebounceする
 
-[ToolShare Lab](https://and-and.net/) はGulp + 静的HTMLで構築しているため、Next.jsのようなSSRフレームワークよりも素のHTMLに近い。JavaScriptの読み込みを最小限にできるのが静的サイトの強みだ。
+[ToolShare Lab](https://webatives.com/) はGulp + 静的HTMLで構築しているため、Next.jsのようなSSRフレームワークよりも素のHTMLに近い。JavaScriptの読み込みを最小限にできるのが静的サイトの強みだ。
 
 ### 4. 構造化データでリッチリザルトを狙う
 

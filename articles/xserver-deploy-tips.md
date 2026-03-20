@@ -275,7 +275,7 @@ jobs:
             ${{ secrets.XSERVER_USER }}@${{ secrets.XSERVER_HOST }}:~/and-tools.net/public_html/
 ```
 
-## [ToolShare Lab](https://and-and.net/) での運用
+## [ToolShare Lab](https://webatives.com/) での運用
 
 ToolShare Labも同様のGulp + rsync構成でXserverに デプロイしている。150以上のツールページを持つ静的サイトだが、rsyncの差分転送のおかげでデプロイ時間は通常10〜30秒で完了する。
 

@@ -6,7 +6,7 @@ topics: ["svg", "css", "frontend", "webdesign"]
 published: false
 ---
 
-フリーランス向けの無料ツール集 [AND TOOLS](https://and-tools.net/) や [ToolShare Lab](https://and-and.net/) のUIには、多数のアイコンを使っている。「アイコンをどう管理・実装するか」は、プロジェクトの技術スタックや規模によって最適解が変わる。
+フリーランス向けの無料ツール集 [AND TOOLS](https://and-tools.net/) や [ToolShare Lab](https://webatives.com/) のUIには、多数のアイコンを使っている。「アイコンをどう管理・実装するか」は、プロジェクトの技術スタックや規模によって最適解が変わる。
 
 この記事では、SVGアイコンの実装方法の代表的な3パターン（sprite / inline / component）を比較し、それぞれの実装コードをまとめる。
 
@@ -316,4 +316,4 @@ function optimizeSvg() {
 
 アイコン管理で最もよく使うのはSVG Spriteだ。Gulpと組み合わせてビルド時に自動生成すると管理が楽になる。
 
-[ToolShare Lab](https://and-and.net/) ではSVGアイコン関連のWeb制作ツールを提供している。フリーランス向けの各種計算ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。
+[ToolShare Lab](https://webatives.com/) ではSVGアイコン関連のWeb制作ツールを提供している。フリーランス向けの各種計算ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。

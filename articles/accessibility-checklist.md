@@ -326,6 +326,6 @@ document.addEventListener('keydown', (e) => {
 
 まずは「コントラスト比の確認」「altテキスト」「フォームラベル」の3つから始めるとコスパが高い。
 
-[ToolShare Lab](https://and-and.net/) ではアクセシビリティ対応のUIコンポーネントを公開している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でまとめて使える。
+[ToolShare Lab](https://webatives.com/) ではアクセシビリティ対応のUIコンポーネントを公開している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でまとめて使える。
 
 アクセシビリティは「特別な対応」ではなく「正しいHTMLを書くこと」から始まる。

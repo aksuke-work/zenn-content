@@ -320,4 +320,4 @@ img {
 
 `aspect-ratio` はシンプルな記述で堅牢なレイアウトを実現できる。`padding-top` ハックはもう使わないでいい。
 
-[ToolShare Lab](https://and-and.net/) では、レイアウト設計に関するWeb制作ツールを公開している。フリーランスの業務に使える各種ツールは [AND TOOLS](https://and-tools.net/) でまとめて確認できる。
+[ToolShare Lab](https://webatives.com/) では、レイアウト設計に関するWeb制作ツールを公開している。フリーランスの業務に使える各種ツールは [AND TOOLS](https://and-tools.net/) でまとめて確認できる。

@@ -256,6 +256,6 @@ FacebookはOGPをキャッシュする。デバッガーから「再取得」を
 
 OGP設定は一度正しく実装すれば、SNSでシェアされるたびに自動でリッチな表示になる。特に画像の設定は効果が大きく、クリック率に直結する。
 
-[ToolShare Lab](https://and-and.net/) や [AND TOOLS](https://and-tools.net/) でもOGP設定は全ページで対応している。SEO対策としても有効なので、新規サイト制作時は必ず設定することを強くすすめる。
+[ToolShare Lab](https://webatives.com/) や [AND TOOLS](https://and-tools.net/) でもOGP設定は全ページで対応している。SEO対策としても有効なので、新規サイト制作時は必ず設定することを強くすすめる。
 
 まずは「基本のOGPタグ」と「1200×630px の画像」を用意するところから始めてほしい。

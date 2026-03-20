@@ -393,4 +393,4 @@ threshold: [0, 0.25, 0.5, 0.75, 1]
 
 Intersection Observerは `scroll` イベントより効率的で、実装もシンプルになる。スクロールアニメーションが必要なすべてのプロジェクトで活用できる。
 
-[ToolShare Lab](https://and-and.net/) ではJavaScriptのUI実装に役立つサンプルを公開している。フリーランス向けの各種計算ツールは [AND TOOLS](https://and-tools.net/) でまとめて確認できる。
+[ToolShare Lab](https://webatives.com/) ではJavaScriptのUI実装に役立つサンプルを公開している。フリーランス向けの各種計算ツールは [AND TOOLS](https://and-tools.net/) でまとめて確認できる。

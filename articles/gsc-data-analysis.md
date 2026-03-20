@@ -150,7 +150,7 @@ SEOパフォーマンスレポート以外にも重要な情報がある。
 
 モバイル・デスクトップそれぞれで「良好」「改善が必要」「低速」のURLが分類される。「低速」に分類されているURLを優先的に改善する。
 
-[ToolShare Lab](https://and-and.net/) は静的サイトなのでCore Web VitalsはGood判定を維持しやすいが、AdSenseの動的読み込みでCLSが発生することがあり、広告枠の高さを固定することで対処した。
+[ToolShare Lab](https://webatives.com/) は静的サイトなのでCore Web VitalsはGood判定を維持しやすいが、AdSenseの動的読み込みでCLSが発生することがあり、広告枠の高さを固定することで対処した。
 
 ## データの落とし穴：GSCが信用できないケース
 

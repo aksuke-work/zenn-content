@@ -6,7 +6,7 @@ topics: ["tailwind", "scss", "bem", "gulp"]
 published: false
 ---
 
-[ToolShare Lab](https://and-and.net/) は Tailwind CSS と SCSS の両方を使っている。「どちらか一方でいいのでは」と思われがちだが、役割を分けると非常に相性がいい。150個のツールページで実際に運用しているハイブリッド構成を解説する。
+[ToolShare Lab](https://webatives.com/) は Tailwind CSS と SCSS の両方を使っている。「どちらか一方でいいのでは」と思われがちだが、役割を分けると非常に相性がいい。150個のツールページで実際に運用しているハイブリッド構成を解説する。
 
 ## なぜ両方使うのか
 
@@ -278,7 +278,7 @@ v4 では JavaScript の `tailwind.config.js` ではなく、CSSで設定する:
 
 ## まとめ
 
-[ToolShare Lab](https://and-and.net/) でTailwind + SCSS ハイブリッドを1年以上運用した所感:
+[ToolShare Lab](https://webatives.com/) でTailwind + SCSS ハイブリッドを1年以上運用した所感:
 
 1. **レイアウト・余白・タイポグラフィは Tailwind** → ユーティリティの恩恵を最大に活用
 2. **カスタムコンポーネントは SCSS + BEM** → 複雑なインタラクション・状態管理が明確

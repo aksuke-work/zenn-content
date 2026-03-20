@@ -6,7 +6,7 @@ topics: ["CoreWebVitals", "パフォーマンス", "SEO", "静的サイト"]
 published: false
 ---
 
-Core Web Vitals（CWV）はGoogleのランキング要素に含まれている。[AND TOOLS](https://and-tools.net/) と [ToolShare Lab](https://and-and.net/) という2つの静的サイトを運営していて、CWVのスコア改善に取り組んできた経験をまとめる。
+Core Web Vitals（CWV）はGoogleのランキング要素に含まれている。[AND TOOLS](https://and-tools.net/) と [ToolShare Lab](https://webatives.com/) という2つの静的サイトを運営していて、CWVのスコア改善に取り組んできた経験をまとめる。
 
 静的サイトはNext.jsやWordPressと比べてCWVが良くなりやすいが、AdSenseの広告やJavaScriptのツール処理でスコアが下がりやすいポイントがある。そこを中心に解説する。
 
@@ -287,7 +287,7 @@ Search Console → コアウェブバイタル で、実際のユーザーデー
 - URLをクリックして類似ページをグループで確認
 - モバイルとデスクトップを別々に確認
 
-[ToolShare Lab](https://and-and.net/) はGulp 5 + 純粋な静的HTMLで構築しているため、JavaScriptフレームワークのオーバーヘッドがない。この構成はCWVの観点では有利で、ほとんどのページでGood判定を維持できている。
+[ToolShare Lab](https://webatives.com/) はGulp 5 + 純粋な静的HTMLで構築しているため、JavaScriptフレームワークのオーバーヘッドがない。この構成はCWVの観点では有利で、ほとんどのページでGood判定を維持できている。
 
 ## まとめ：静的サイトのCWV改善チェックリスト
 

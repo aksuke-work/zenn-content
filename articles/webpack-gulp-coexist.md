@@ -6,7 +6,7 @@ topics: ["webpack", "gulp", "javascript", "フロントエンド"]
 published: false
 ---
 
-[ToolShare Lab](https://and-and.net/) のビルド構成は Gulp + Webpack の組み合わせだ。「Webpack だけで完結させない理由」「Gulp だけではできない理由」があって、この2つを共存させている。設計の考え方と実装パターンを解説する。
+[ToolShare Lab](https://webatives.com/) のビルド構成は Gulp + Webpack の組み合わせだ。「Webpack だけで完結させない理由」「Gulp だけではできない理由」があって、この2つを共存させている。設計の考え方と実装パターンを解説する。
 
 ## なぜ両方使うのか
 
@@ -17,7 +17,7 @@ Gulp と Webpack はそれぞれ得意なことが違う。
 | Gulp | ファイル操作、EJS/SCSS変換、BrowserSync、デプロイ | JSのモジュール解決、Tree-shaking |
 | Webpack | JSバンドル、モジュール解決、コード分割、Tree-shaking | EJSテンプレート処理、任意タスクの実行 |
 
-[ToolShare Lab](https://and-and.net/) は150個のツールページを持ち、各ページに専用のJS計算ロジックがある。このロジックを：
+[ToolShare Lab](https://webatives.com/) は150個のツールページを持ち、各ページに専用のJS計算ロジックがある。このロジックを：
 
 - **共通JS**（ヘッダーのUI、モーダル制御など）→ Webpack でバンドル
 - **ページ固有JS**（所得税計算ロジックなど）→ Webpack でバンドル（複数エントリ）
@@ -237,7 +237,7 @@ export default build;
 | `webpack-stream` | Gulp パイプラインに馴染む | 複数エントリの扱いが難しい |
 | `webpack` 直接 | 複数エントリ、splitChunksが自由 | Gulp の stream と分離する |
 
-[ToolShare Lab](https://and-and.net/) は150個のツール固有JSがあるため、複数エントリを動的生成する必要がある。`webpack` 直接呼び出し + Promise ラップの方法が適していた。
+[ToolShare Lab](https://webatives.com/) は150個のツール固有JSがあるため、複数エントリを動的生成する必要がある。`webpack` 直接呼び出し + Promise ラップの方法が適していた。
 
 ## 開発・本番の切り替え
 
@@ -279,7 +279,7 @@ ls -lh dist/js/
 NODE_ENV=production npx webpack --config webpack.config.cjs --stats verbose
 ```
 
-[ToolShare Lab](https://and-and.net/) での実際のビルド結果:
+[ToolShare Lab](https://webatives.com/) での実際のビルド結果:
 
 ```
 dist/js/

@@ -390,4 +390,4 @@ published: false
 | カラー維持 | `print-color-adjust: exact` |
 | リンクURL表示 | `a::after { content: attr(href); }` |
 
-請求書や見積書機能を持つWebアプリには `@media print` の設定が欠かせない。[ToolShare Lab](https://and-and.net/) では印刷対応のWebツールを提供している。フリーランスの業務に役立つ計算ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。
+請求書や見積書機能を持つWebアプリには `@media print` の設定が欠かせない。[ToolShare Lab](https://webatives.com/) では印刷対応のWebツールを提供している。フリーランスの業務に役立つ計算ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。

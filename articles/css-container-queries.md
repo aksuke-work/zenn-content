@@ -297,4 +297,4 @@ published: false
 2. `@container (min-width: ...)` でスタイルを書く
 3. `cqi` 単位でフォントサイズをスケールさせる
 
-[ToolShare Lab](https://and-and.net/) では、レスポンシブデザインに関するコンポーネント実装ガイドも公開している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。
+[ToolShare Lab](https://webatives.com/) では、レスポンシブデザインに関するコンポーネント実装ガイドも公開している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でまとめて利用できる。

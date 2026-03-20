@@ -6,7 +6,7 @@ topics: ["ejs", "gulp", "html", "フロントエンド"]
 published: false
 ---
 
-[ToolShare Lab](https://and-and.net/) は150個以上のツールページを EJS でテンプレート化して運営している。ページ数が増えるにつれ「どう分割するか」が重要になってくる。`include` を適切に使ったコンポーネント設計のノウハウをまとめる。
+[ToolShare Lab](https://webatives.com/) は150個以上のツールページを EJS でテンプレート化して運営している。ページ数が増えるにつれ「どう分割するか」が重要になってくる。`include` を適切に使ったコンポーネント設計のノウハウをまとめる。
 
 ## EJSのincludeの基本
 
@@ -21,7 +21,7 @@ EJSの `include` は2種類の書き方がある。
 
 ## ディレクトリ構造の設計
 
-[ToolShare Lab](https://and-and.net/) でのディレクトリ構造:
+[ToolShare Lab](https://webatives.com/) でのディレクトリ構造:
 
 ```
 src/ejs/
@@ -208,7 +208,7 @@ function buildEjs() {
 }
 ```
 
-これで深いネストでも `/_components/_header` で呼べる。[ToolShare Lab](https://and-and.net/) は3〜4階層のディレクトリがあるため、この設定は必須だった。
+これで深いネストでも `/_components/_header` で呼べる。[ToolShare Lab](https://webatives.com/) は3〜4階層のディレクトリがあるため、この設定は必須だった。
 
 ## コンポーネントの粒度設計
 
@@ -225,7 +225,7 @@ function buildEjs() {
 </div>
 ```
 
-[ToolShare Lab](https://and-and.net/) での分割基準:
+[ToolShare Lab](https://webatives.com/) での分割基準:
 - **コンポーネント化する**: 3ページ以上で使い回す部分
 - **インラインで書く**: そのページ固有のコンテンツ
 - **データで動的化する**: ツールカード、関連ツール一覧など繰り返し要素

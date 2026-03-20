@@ -351,6 +351,6 @@ if (saved) root.setAttribute('data-theme', saved);
 
 CSS変数と `prefers-color-scheme` の組み合わせは、最もシンプルかつ信頼性の高いダークモード実装方法だ。JavaScriptを使わないので、スクリプトの読み込みより先にスタイルが適用される利点がある。
 
-[ToolShare Lab](https://and-and.net/) では、カラートークンジェネレーターなどのWeb制作補助ツールを公開している。フリーランス業務に使える計算ツール全般は [AND TOOLS](https://and-tools.net/) にまとまっている。
+[ToolShare Lab](https://webatives.com/) では、カラートークンジェネレーターなどのWeb制作補助ツールを公開している。フリーランス業務に使える計算ツール全般は [AND TOOLS](https://and-tools.net/) にまとまっている。
 
 ダークモード対応は「後からやる」より「最初からCSS変数で設計する」方が、後の工数を大幅に削減できる。

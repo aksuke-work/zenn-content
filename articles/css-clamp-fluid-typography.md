@@ -273,7 +273,7 @@ font-size: clamp(1rem, 2vw, 1.5rem);
 
 ## ツールを使って計算を楽にする
 
-`clamp()` の推奨値の計算は毎回手でやるのは非効率。[ToolShare Lab](https://and-and.net/) では、こういった計算補助ツールを提供している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でも複数公開しているので合わせて確認してほしい。
+`clamp()` の推奨値の計算は毎回手でやるのは非効率。[ToolShare Lab](https://webatives.com/) では、こういった計算補助ツールを提供している。フリーランスの業務効率化ツールは [AND TOOLS](https://and-tools.net/) でも複数公開しているので合わせて確認してほしい。
 
 ---
 

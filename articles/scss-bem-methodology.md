@@ -6,11 +6,11 @@ topics: ["scss", "bem", "css", "gulp"]
 published: false
 ---
 
-[ToolShare Lab](https://and-and.net/) は150個以上のツールページを持つ静的サイトで、SCSSとBEMでスタイルを管理している。コンポーネント数が増えると命名の一貫性が崩れてきやすい。1年以上運用して確立したBEM+SCSSの実践的な設計方針をまとめる。
+[ToolShare Lab](https://webatives.com/) は150個以上のツールページを持つ静的サイトで、SCSSとBEMでスタイルを管理している。コンポーネント数が増えると命名の一貫性が崩れてきやすい。1年以上運用して確立したBEM+SCSSの実践的な設計方針をまとめる。
 
 ## BEMの命名規則（自分のdialect）
 
-BEMにはいくつかの流派がある。[ToolShare Lab](https://and-and.net/) では以下のルールを使っている。
+BEMにはいくつかの流派がある。[ToolShare Lab](https://webatives.com/) では以下のルールを使っている。
 
 | 分類 | 規則 | 例 |
 |------|------|---|
@@ -209,7 +209,7 @@ src/scss/
 .toolCard_state_loading { /* ... */ }
 ```
 
-[ToolShare Lab](https://and-and.net/) ではパターンAを基本にしつつ、Modifierが5つ以上になるコンポーネントはパターンBで書いている。
+[ToolShare Lab](https://webatives.com/) ではパターンAを基本にしつつ、Modifierが5つ以上になるコンポーネントはパターンBで書いている。
 
 ## デザイントークン（CSS Custom Properties）
 
@@ -350,4 +350,4 @@ grep -r '^\.' src/scss/components/ | grep -v '&' | cut -d: -f2 | sort | uniq
 4. **JSフックは `js-` プレフィクス** → スタイルとロジックを分離
 5. **深いネスト禁止、フラット設計** → 詳細度の問題を防ぐ
 
-[ToolShare Lab](https://and-and.net/) ではこのルールを1年以上運用して、新しいツールページを追加するときの迷いがほぼなくなった。「どのクラス名にするか」「どのファイルに書くか」が自明になると、開発速度が上がる。
+[ToolShare Lab](https://webatives.com/) ではこのルールを1年以上運用して、新しいツールページを追加するときの迷いがほぼなくなった。「どのクラス名にするか」「どのファイルに書くか」が自明になると、開発速度が上がる。

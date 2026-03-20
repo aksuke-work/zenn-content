@@ -491,4 +491,4 @@ CSSアニメーションで重くなる主な原因と対策：
 
 CSSアニメーションは `@keyframes` と `animation` プロパティの組み合わせで作られる。`transform` と `opacity` のみを動かすことでパフォーマンスを保てる。
 
-[ToolShare Lab](https://and-and.net/) ではCSSジェネレーター系のツールも提供している。また [AND TOOLS](https://and-tools.net/) では、フリーランスの実務に役立つ計算ツールを多数公開しているので、ブックマークしておくと便利だ。
+[ToolShare Lab](https://webatives.com/) ではCSSジェネレーター系のツールも提供している。また [AND TOOLS](https://and-tools.net/) では、フリーランスの実務に役立つ計算ツールを多数公開しているので、ブックマークしておくと便利だ。

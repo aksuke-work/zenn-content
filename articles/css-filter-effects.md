@@ -6,7 +6,7 @@ topics: ["css", "frontend", "webdesign", "ui"]
 published: false
 ---
 
-フリーランス向けの無料ツールサイト [ToolShare Lab](https://and-and.net/) を運営している。サイトのUIで画像を使う機会が多く、CSSの `filter` プロパティを使いこなすと画像関連の表現が格段に増えることを実感した。
+フリーランス向けの無料ツールサイト [ToolShare Lab](https://webatives.com/) を運営している。サイトのUIで画像を使う機会が多く、CSSの `filter` プロパティを使いこなすと画像関連の表現が格段に増えることを実感した。
 
 この記事では、`filter` プロパティの各値を実際の使いどころと合わせて解説する。コードはすべてコピペで使える。
 
@@ -381,4 +381,4 @@ CSSの `filter` プロパティからSVGフィルターも参照できる。
 
 CSS `filter` は画像表現の可能性を大きく広げるプロパティだ。特に `grayscale` と `blur` のホバーエフェクトは実装コストが低くインパクトが大きい。
 
-[ToolShare Lab](https://and-and.net/) ではCSSツールを各種無料公開している。フリーランス向けの計算ツールは [AND TOOLS](https://and-tools.net/) で確認できる。
+[ToolShare Lab](https://webatives.com/) ではCSSツールを各種無料公開している。フリーランス向けの計算ツールは [AND TOOLS](https://and-tools.net/) で確認できる。

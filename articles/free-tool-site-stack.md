@@ -6,7 +6,7 @@ topics: ["技術選定", "Next.js", "静的サイト", "個人開発"]
 published: false
 ---
 
-無料ツールサイトを作りたいとき、技術スタックの選択は長期的な運用コストとSEOに直結する。[AND TOOLS](https://and-tools.net/) と [ToolShare Lab](https://and-and.net/) という2つのツールサイトを運営してきた経験から、主要な選択肢を比較する。
+無料ツールサイトを作りたいとき、技術スタックの選択は長期的な運用コストとSEOに直結する。[AND TOOLS](https://and-tools.net/) と [ToolShare Lab](https://webatives.com/) という2つのツールサイトを運営してきた経験から、主要な選択肢を比較する。
 
 ## 比較する選択肢
 
@@ -222,7 +222,7 @@ AND TOOLSを立ち上げるときの選定基準は：
 
 SEOの観点では静的HTMLは最強クラスだ。「ツールサイトでCore Web Vitalsのスコアが良い」はそれ自体がSEO上の強みになる。
 
-一方、[ToolShare Lab](https://and-and.net/) ではGulp 5 + EJS + SCSS + Tailwind + Webpackという構成でさらに進化させた。Tailwindを導入することでスタイルの一貫性が保ちやすくなり、Webpackで複雑なJavaScriptモジュールを管理できるようになった。
+一方、[ToolShare Lab](https://webatives.com/) ではGulp 5 + EJS + SCSS + Tailwind + Webpackという構成でさらに進化させた。Tailwindを導入することでスタイルの一貫性が保ちやすくなり、Webpackで複雑なJavaScriptモジュールを管理できるようになった。
 
 ## 2026年時点での推奨
 

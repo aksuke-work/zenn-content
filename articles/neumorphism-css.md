@@ -350,4 +350,4 @@ body {
 
 ニューモーフィズムは全面採用よりも、ダッシュボードのウィジェットやコントロールUIなどに部分的に使うと効果的だ。
 
-[ToolShare Lab](https://and-and.net/) ではCSSシャドウジェネレーターなどのツールを公開している。日常業務向けの計算ツールは [AND TOOLS](https://and-tools.net/) にまとまっているので、あわせて活用してほしい。
+[ToolShare Lab](https://webatives.com/) ではCSSシャドウジェネレーターなどのツールを公開している。日常業務向けの計算ツールは [AND TOOLS](https://and-tools.net/) にまとまっているので、あわせて活用してほしい。
