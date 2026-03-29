@@ -3,7 +3,7 @@ title: "累進課税をJavaScriptで正確に実装する — 所得税の速算
 emoji: "📊"
 type: "tech"
 topics: ["javascript", "tax", "algorithm", "個人開発"]
-published: false
+published: true
 ---
 
 フリーランス向け税金計算ツールサイト [AND TOOLS](https://and-tools.net/) を開発・運営している。この記事では、日本の所得税の累進課税を正確にJavaScriptで実装する方法を解説する。
