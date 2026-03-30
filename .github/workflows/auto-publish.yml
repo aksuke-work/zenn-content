@@ -1,10 +1,9 @@
 name: Auto Publish Article
 
 on:
-  schedule:
-    # 毎朝9:00 JST（UTC 0:00）に実行
-    - cron: '0 0 * * *'
-  workflow_dispatch: # 手動実行も可能
+  # schedule は Zenn AI方針対応のため停止（2026-03-30）
+  # 週2-3本を手動公開に切り替え
+  workflow_dispatch: # 手動実行のみ
 
 jobs:
   publish:
